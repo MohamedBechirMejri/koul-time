@@ -1,5 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
+import Footer from "~/components/Footer";
 import Header from "~/components/Header";
 import LatestVideo from "~/components/LatestVideo";
 import Sponsors from "~/components/Sponsors";
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
         <LatestVideo />
         <TheCrew />
         <Sponsors />
+        <Footer />
       </div>
     </>
   );
