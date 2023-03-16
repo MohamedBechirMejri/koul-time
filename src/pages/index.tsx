@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Header from "~/components/Header";
+import LatestVideo from "~/components/LatestVideo";
 
 const Home: NextPage = () => {
   return (
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
       </Head>
       <div className="min-h-[100svh] bg-[#D9D9D9]">
         <Header />
+        <LatestVideo />
       </div>
     </>
   );
