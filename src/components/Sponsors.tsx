@@ -2,11 +2,21 @@ const Sponsors = () => {
   return (
     <div className="grid grid-cols-2 grid-rows-[auto,7rem,7rem,7rem] gap-2 p-4">
       <h1 className="col-span-2 text-3xl">Sponsors</h1>
-      <div className="col-span-2 bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
-      <div className="bg-black"></div>
+      <div className="col-span-2 flex items-center justify-center bg-rose-500 text-3xl text-white">
+        🤩 KoulTimers 🤩
+      </div>
+      <div className="flex items-center justify-center border border-current text-orange-500">
+        soon..
+      </div>
+      <div className="flex items-center justify-center border border-current text-orange-500">
+        soon..
+      </div>
+      <div className="flex items-center justify-center border border-current text-orange-500">
+        soon..
+      </div>
+      <div className="flex items-center justify-center border border-current text-orange-500">
+        soon..
+      </div>
     </div>
   );
 };
