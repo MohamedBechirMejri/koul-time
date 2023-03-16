@@ -17,7 +17,7 @@ const LatestVideo = () => {
     <div className="flex flex-col items-stretch gap-2 p-4">
       <h1 className="text-3xl">Latest Video</h1>
       <div className="h-[18.75rem] bg-black">
-        <ReactPlayer url={latestVideo} width={"100%"} height="100%" />;
+        <ReactPlayer url={latestVideo} width={"100%"} height="100%" />
       </div>
       <a
         href="https://www.youtube.com/c/KoulTime"
