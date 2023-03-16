@@ -4,7 +4,9 @@ const config = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
+  plugins: [require("tailwindcss-text-fill-stroke")],
 };
 
 module.exports = config;
