@@ -7,7 +7,7 @@ const Header = () => {
       <div className="flex gap-6">
         <Link
           href={"/merch"}
-          className="text-stroke text-stroke-[#FF5400] text-fill-transparent hover:text-fill-[#FF5400] hover:text-stroke-0 text-3xl transition-all"
+          className="text-3xl transition-all text-fill-transparent text-stroke-[#FF5400] text-stroke hover:text-fill-[#FF5400] hover:text-stroke-0"
         >
           merch
         </Link>
@@ -15,7 +15,7 @@ const Header = () => {
           href="https://ba9chich.com/contact.koultime"
           target="_blank"
           rel="noreferrer"
-          className="text-3xl text-[#FF5400] transition-all"
+          className="text-3xl text-[#FF5400] transition-all hover:underline"
         >
           Support us
         </a>
