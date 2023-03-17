@@ -21,14 +21,16 @@ const LatestVideo = () => {
           <ReactPlayer url={latestVideo} width={"100%"} height="100%" />
         )}
       </div>
-      <a
-        href="https://www.youtube.com/c/KoulTime"
-        target="_blank"
-        rel="noreferrer"
-        className="text-right text-[#FF5400] transition-all hover:underline"
-      >
-        more on our channel
-      </a>
+      <div className="flex justify-end">
+        <a
+          href="https://www.youtube.com/c/KoulTime"
+          target="_blank"
+          rel="noreferrer"
+          className="w-max text-right text-[#FF5400] transition-all hover:underline"
+        >
+          more on our channel
+        </a>
+      </div>
     </div>
   );
 };
