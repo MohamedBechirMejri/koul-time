@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Koul time merchandise" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="mx-auto flex min-h-[100svh] max-w-4xl flex-col items-center justify-between">
+      <div className="flex min-h-[100svh] flex-col items-center justify-between">
         <Header />
         <h1 className="text-5xl">Soon..</h1>
         <Footer />

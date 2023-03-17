@@ -14,7 +14,7 @@ const LatestVideo = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-stretch gap-2 p-4">
+    <div className="mx-auto flex max-w-4xl flex-col items-stretch gap-2 p-4">
       <h1 className="text-3xl">Latest Video</h1>
       <div className="h-[18.75rem] bg-black transition-all sm:h-[30rem]">
         {latestVideo && (
