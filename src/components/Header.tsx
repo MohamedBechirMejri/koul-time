@@ -3,7 +3,9 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className="flex w-full items-center justify-between p-4">
-      <h1 className="bg-[#FF5400] p-2 px-6 text-3xl text-white">Koul Time</h1>
+      <Link href={"/"} className="bg-[#FF5400] p-2 px-6 text-3xl text-white">
+        Koul Time
+      </Link>
       <div className="flex gap-6">
         <Link
           href={"/merch"}
